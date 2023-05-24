@@ -1,5 +1,6 @@
 
 header {
+    width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -7,8 +8,12 @@ header {
 }
 
 main {
-    margin: 0 400px;
+    margin: 0 600px;
     text-align: center;
+}
+
+body {
+    margin: 0;
 }
 
 section > p {
@@ -16,7 +21,7 @@ section > p {
 }
 
 article {
-    margin: 0 400px;
+    margin: 0 600px;
 }
 
 #logo img {
@@ -55,9 +60,13 @@ article p {
     font-size: 1.2em;
 }
 
+article li {
+    margin: 15px 0px;
+}
+
 .ricetta p {
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 #textfooter {
