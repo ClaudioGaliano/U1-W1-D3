@@ -24,6 +24,11 @@ article {
     margin-top: 10px;
 }
 
+section img {
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 4px #00000017);
+}
+
 #feature {
     text-align: left;
     padding-left: 0.8em;
