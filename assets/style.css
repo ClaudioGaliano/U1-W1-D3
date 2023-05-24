@@ -8,7 +8,8 @@ header {
 }
 
 main {
-    margin: 0 600px;
+    width: 40%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -21,7 +22,8 @@ section > p {
 }
 
 article {
-    margin: 0 600px;
+    margin: 0 auto;
+    width: 40%;
 }
 
 #logo img {
@@ -30,6 +32,7 @@ article {
 }
 
 section img {
+    width: 100%;
     border-radius: 10px;
     filter: drop-shadow(5px 5px 4px #00000017);
 }
@@ -61,7 +64,7 @@ article p {
 }
 
 article li {
-    margin: 15px 0px;
+    margin: 20px 0px;
 }
 
 .ricetta p {
