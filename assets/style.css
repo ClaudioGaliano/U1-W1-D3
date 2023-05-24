@@ -7,14 +7,15 @@ header {
     text-align: center;
 }
 
+body {
+    margin: 0;
+    width: 100vw;
+}
+
 main {
     width: 40%;
     margin: 0 auto;
     text-align: center;
-}
-
-body {
-    margin: 0;
 }
 
 section > p {
@@ -31,11 +32,17 @@ article {
     margin-top: 10px;
 }
 
-section img {
+section video {
     width: 100%;
     border-radius: 10px;
     filter: drop-shadow(5px 5px 4px #00000017);
 }
+
+/* section img {
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px 4px #00000017);
+} */
 
 #feature {
     text-align: left;
@@ -85,7 +92,7 @@ hr {
     margin: 25px 0px;
 }
 
-h2 {
+h1 {
     margin: 30px 0px 25px 0px;
 }
 
